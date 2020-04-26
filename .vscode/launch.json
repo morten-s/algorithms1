@@ -1,0 +1,1353 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "200 100"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Percolation<perc>",
+            "request": "launch",
+            "mainClass": "Percolation",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PercolationStats<perc>",
+            "request": "launch",
+            "mainClass": "PercolationStats",
+            "projectName": "perc",
+            "args": "5 300"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestAlgs4<perc>",
+            "request": "launch",
+            "mainClass": "TestAlgs4",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AVLTreeST<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.AVLTreeST",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Accumulator<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Accumulator",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AcyclicLP<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.AcyclicLP",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AcyclicSP<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.AcyclicSP",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AdjMatrixEdgeWeightedDigraph<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.AdjMatrixEdgeWeightedDigraph",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Alphabet<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Alphabet",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AmericanFlag<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.AmericanFlag",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AmericanFlagX<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.AmericanFlagX",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Arbitrage<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Arbitrage",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AssignmentProblem<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.AssignmentProblem",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Average<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Average",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BST<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BST",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BTree<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BTree",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Bag<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Bag",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BellmanFordSP<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BellmanFordSP",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryDump<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BinaryDump",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryIn<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BinaryIn",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryInsertion<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BinaryInsertion",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryOut<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BinaryOut",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinarySearch<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BinarySearch",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinarySearchST<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BinarySearchST",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryStdIn<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BinaryStdIn",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryStdOut<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BinaryStdOut",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Bipartite<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Bipartite",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BipartiteMatching<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BipartiteMatching",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BipartiteX<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BipartiteX",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BlackFilter<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BlackFilter",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BoruvkaMST<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BoruvkaMST",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BoyerMoore<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BoyerMoore",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BreadthFirstDirectedPaths<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BreadthFirstDirectedPaths",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BreadthFirstPaths<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.BreadthFirstPaths",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CC<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.CC",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CPM<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.CPM",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Cat<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Cat",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClosestPair<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.ClosestPair",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CollisionSystem<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.CollisionSystem",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Complex<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Complex",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Count<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Count",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Counter<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Counter",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Cycle<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Cycle",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Date<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Date",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DeDup<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DeDup",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DegreesOfSeparation<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DegreesOfSeparation",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DepthFirstDirectedPaths<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DepthFirstDirectedPaths",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DepthFirstOrder<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DepthFirstOrder",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DepthFirstPaths<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DepthFirstPaths",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DepthFirstSearch<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DepthFirstSearch",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Digraph<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Digraph",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DigraphGenerator<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DigraphGenerator",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DijkstraAllPairsSP<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DijkstraAllPairsSP",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DijkstraSP<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DijkstraSP",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DijkstraUndirectedSP<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DijkstraUndirectedSP",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DirectedCycle<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DirectedCycle",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DirectedCycleX<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DirectedCycleX",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DirectedDFS<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DirectedDFS",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DirectedEdge<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DirectedEdge",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DirectedEulerianCycle<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DirectedEulerianCycle",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DirectedEulerianPath<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DirectedEulerianPath",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DoublingRatio<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DoublingRatio",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DoublingTest<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.DoublingTest",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Draw<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Draw",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Edge<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Edge",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EdgeWeightedDigraph<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.EdgeWeightedDigraph",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EdgeWeightedDirectedCycle<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.EdgeWeightedDirectedCycle",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EdgeWeightedGraph<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.EdgeWeightedGraph",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EulerianCycle<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.EulerianCycle",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EulerianPath<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.EulerianPath",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FFT<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FFT",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FarthestPair<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FarthestPair",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FenwickTree<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FenwickTree",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FileIndex<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FileIndex",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FlowEdge<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FlowEdge",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FlowNetwork<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FlowNetwork",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FloydWarshall<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FloydWarshall",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FordFulkerson<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FordFulkerson",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FrequencyCounter<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.FrequencyCounter",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GREP<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.GREP",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GabowSCC<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.GabowSCC",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GaussJordanElimination<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.GaussJordanElimination",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GaussianElimination<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.GaussianElimination",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Genome<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Genome",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GlobalMincut<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.GlobalMincut",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GrahamScan<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.GrahamScan",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Graph<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Graph",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GraphGenerator<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.GraphGenerator",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GrayscalePicture<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.GrayscalePicture",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Heap<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Heap",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HexDump<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.HexDump",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HopcroftKarp<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.HopcroftKarp",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Huffman<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Huffman",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-In<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.In",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IndexMaxPQ<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.IndexMaxPQ",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IndexMinPQ<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.IndexMinPQ",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InplaceMSD<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.InplaceMSD",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Insertion<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Insertion",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-InsertionX<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.InsertionX",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Interval1D<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Interval1D",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Interval2D<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Interval2D",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Inversions<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Inversions",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KMP<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.KMP",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KWIK<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.KWIK",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Knuth<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Knuth",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KosarajuSharirSCC<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.KosarajuSharirSCC",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KruskalMST<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.KruskalMST",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LSD<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LSD",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LZW<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LZW",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LazyPrimMST<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LazyPrimMST",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinearProbingHashST<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LinearProbingHashST",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinearProgramming<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LinearProgramming",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinkedBag<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LinkedBag",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinkedQueue<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LinkedQueue",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinkedStack<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LinkedStack",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestCommonSubstring<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LongestCommonSubstring",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestRepeatedSubstring<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LongestRepeatedSubstring",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LookupCSV<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LookupCSV",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LookupIndex<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.LookupIndex",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MSD<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.MSD",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxPQ<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.MaxPQ",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Merge<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Merge",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeBU<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.MergeBU",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeX<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.MergeX",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinPQ<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.MinPQ",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Multiway<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Multiway",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NFA<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.NFA",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NonrecursiveDFS<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.NonrecursiveDFS",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NonrecursiveDirectedDFS<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.NonrecursiveDirectedDFS",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Out<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Out",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PatriciaSET<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.PatriciaSET",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PatriciaST<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.PatriciaST",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Picture<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Picture",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PictureDump<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.PictureDump",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Point2D<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Point2D",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Polynomial<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Polynomial",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrimMST<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.PrimMST",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Queue<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Queue",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Quick<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Quick",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Quick3string<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Quick3string",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Quick3way<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Quick3way",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuickBentleyMcIlroy<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.QuickBentleyMcIlroy",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuickFindUF<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.QuickFindUF",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuickUnionUF<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.QuickUnionUF",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuickX<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.QuickX",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RabinKarp<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.RabinKarp",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RandomSeq<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.RandomSeq",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RedBlackBST<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.RedBlackBST",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ResizingArrayBag<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.ResizingArrayBag",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ResizingArrayQueue<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.ResizingArrayQueue",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ResizingArrayStack<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.ResizingArrayStack",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RunLength<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.RunLength",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SET<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SET",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ST<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.ST",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SegmentTree<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SegmentTree",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Selection<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Selection",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SeparateChainingHashST<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SeparateChainingHashST",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SequentialSearchST<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SequentialSearchST",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Shell<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Shell",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SparseVector<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SparseVector",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Stack<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Stack",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StdArrayIO<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.StdArrayIO",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StdAudio<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.StdAudio",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StdDraw<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.StdDraw",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StdIn<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.StdIn",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StdOut<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.StdOut",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StdRandom<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.StdRandom",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StdStats<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.StdStats",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Stopwatch<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Stopwatch",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StopwatchCPU<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.StopwatchCPU",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SuffixArray<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SuffixArray",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SuffixArrayX<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SuffixArrayX",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SymbolDigraph<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SymbolDigraph",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SymbolGraph<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.SymbolGraph",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TST<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.TST",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TarjanSCC<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.TarjanSCC",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreeSum<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.ThreeSum",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreeSumFast<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.ThreeSumFast",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TopM<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.TopM",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Topological<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Topological",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TopologicalX<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.TopologicalX",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Transaction<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Transaction",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TransitiveClosure<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.TransitiveClosure",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TrieSET<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.TrieSET",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TrieST<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.TrieST",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwoPersonZeroSumGame<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.TwoPersonZeroSumGame",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UF<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.UF",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Vector<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Vector",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WeightedQuickUnionUF<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.WeightedQuickUnionUF",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WhiteFilter<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.WhiteFilter",
+            "projectName": "perc"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Whitelist<perc>",
+            "request": "launch",
+            "mainClass": "edu.princeton.cs.algs4.Whitelist",
+            "projectName": "perc"
+        }
+    ]
+}
