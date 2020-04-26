@@ -22,8 +22,8 @@ public class PercolationStats {
             pTest = new Percolation(n);
             int rolls = 0;
             while(!pTest.percolates()){
-                int row = (int)(StdRandom.uniform()*n) + 1; // adjust to startrow = 1
-                int col = (int)(StdRandom.uniform()*n) + 1;
+                int row = StdRandom.uniform(1, n+1); // adjust to startrow = 1
+                int col = StdRandom.uniform(1, n+1);
                 pTest.open(row, col);
                 rolls++;
             }

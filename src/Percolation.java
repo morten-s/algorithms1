@@ -73,6 +73,7 @@ public class Percolation {
     private int gridSide;
     private int virTop,virBot;
     private WeightedQuickUnionUF QUarray;
+    private WeightedQuickUnionUF QUarrayNoBackwash;
     // creates n-by-n grid, with all sites initially blocked
     public Percolation(int n){
         if(n <= 0){ 
@@ -82,13 +83,20 @@ public class Percolation {
         gridSide = n;
         grid = new byte[n][n];
         openSites = 0;
-        QUarray = new WeightedQuickUnionUF((gridSize)+2); // grid + 2 virtual elements in top and bottom
+        // grid + 2 virtual elements in top and bottom
+        QUarray = new WeightedQuickUnionUF((gridSize)+2); 
+        // grid + 1 virtual elements in top resolve backwash problem
+        QUarrayNoBackwash = new WeightedQuickUnionUF((gridSize)+1); 
+        
         virTop = gridSize;
         virBot = gridSize + 1;
         
         
     }
 
+    private int rowColToArrayIndex(int row, int col){
+        return( ((row-1)*gridSide)+(col-1) );
+    }
     // opens the site (row, col) if it is not open already
     public void open(int row, int col){
         //check if row col is within limits (1,1)(n,n)
@@ -99,29 +107,34 @@ public class Percolation {
         if(grid[row-1][col-1] != OPEN){
             grid[row-1][col-1] = OPEN;
             openSites++;
-            int QUelementIndex = ((row-1)*gridSide)+(col-1);
+
             if(row == 1){
                 // hvis feltet er i row 1 eller row n (top / bund) tilknyttes der et  
                 // rod element som bruges i optimeret søgning i perculation fra hele row 0 til bund
-                QUarray.union(QUelementIndex, virTop);
+                QUarray.union(rowColToArrayIndex(row,col), virTop);
+                QUarrayNoBackwash.union(rowColToArrayIndex(row,col), virTop);
             }
             if(row == gridSide){
-                QUarray.union(QUelementIndex, virBot);
+                QUarray.union(rowColToArrayIndex(row,col), virBot);
             }
             //check alle omkredsende felter i grid left righ top bottom for tilknyttede felter
             //via a chain of neighboring (left, right, up, down) open sites
             //add feltet til et eksisterende set hvis der er tilknyttede felter
             if(((row-1+UP) >= 0) && (grid[(row-1+UP)][(col-1)] == OPEN)){
-                QUarray.union(QUelementIndex, ((row-1+UP)*gridSide)+(col-1)); //If up is open connect to it
+                QUarray.union(rowColToArrayIndex(row,col), rowColToArrayIndex(row+UP,col)); //If up is open connect to it
+                QUarrayNoBackwash.union(rowColToArrayIndex(row,col), rowColToArrayIndex(row+UP,col)); //If up is open connect to it
             }
             if(((row-1+DOWN) <= gridSide-1) && (grid[(row-1+DOWN)][(col-1)] == OPEN)){
-                QUarray.union(QUelementIndex, ((row-1+DOWN)*gridSide)+(col-1)); //If down is open connect to it
+                QUarray.union(rowColToArrayIndex(row,col), rowColToArrayIndex(row+DOWN,col)); //If down is open connect to it
+                QUarrayNoBackwash.union(rowColToArrayIndex(row,col), rowColToArrayIndex(row+DOWN,col)); //If down is open connect to it
             }
             if(((col-1+LEFT) >= 0) && (grid[(row-1)][(col-1+LEFT)] == OPEN)){
-                QUarray.union(QUelementIndex, ((row-1)*gridSide)+(col-1+LEFT)); //If left is open connect to it
+                QUarray.union(rowColToArrayIndex(row,col), rowColToArrayIndex(row,col+LEFT)); //If left is open connect to it
+                QUarrayNoBackwash.union(rowColToArrayIndex(row,col), rowColToArrayIndex(row,col+LEFT)); //If left is open connect to it
             }
             if(((col-1+RIGHT) <= gridSide-1) && (grid[(row-1)][(col-1+RIGHT)] == OPEN)){
-                QUarray.union(QUelementIndex, ((row-1)*gridSide)+(col-1+RIGHT)); //If right is open connect to it
+                QUarray.union(rowColToArrayIndex(row,col), rowColToArrayIndex(row,col+RIGHT)); //If right is open connect to it
+                QUarrayNoBackwash.union(rowColToArrayIndex(row,col), rowColToArrayIndex(row,col+RIGHT)); //If right is open connect to it
             }
         }
         return;
@@ -140,7 +153,7 @@ public class Percolation {
         if(row <= 0 || col <= 0 || row > gridSide || col > gridSide){
             throw new IllegalArgumentException();
         } 
-        return( (QUarray.find(virTop) == QUarray.find( ((row-1)*gridSide)+(col-1) )) 
+        return( (QUarrayNoBackwash.find(virTop) == QUarrayNoBackwash.find( ((row-1)*gridSide)+(col-1) )) 
                     && isOpen(row, col) );
     }
 
